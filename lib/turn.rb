@@ -33,4 +33,5 @@ until valid_move?(board, index)
   input = gets.strip
   index = input_to_index(input)
 end
+move(board,index)
 end
